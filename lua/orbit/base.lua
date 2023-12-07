@@ -96,7 +96,7 @@ return lush(function (added)
         --
         -- Uncomment and edit if you want more specific syntax highlighting.
 
-        Comment        { fg = colors.night[1] }, -- Any comment
+        Comment        { fg = colors.night[1].lighten(10) }, -- Any comment
 
         Constant       { fg = colors.venus[1] }, -- (*) Any constant
         String         { Constant, fg = colors.venus[4], italic = true }, --   A string constant: "this is a string"
